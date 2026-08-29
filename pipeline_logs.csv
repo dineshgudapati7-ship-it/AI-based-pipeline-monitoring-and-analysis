@@ -1,0 +1,301 @@
+run_id,job_name,run_timestamp,status,duration_minutes,rows_processed,error_message
+daily_sales_aggregate_20260701_2306,daily_sales_aggregate,2026-07-01 23:06:00,SUCCESS,12.5,74158,
+clickstream_dedupe_20260701_0614,clickstream_dedupe,2026-07-01 06:14:00,SUCCESS,3.4,50123,
+clickstream_dedupe_20260701_2044,clickstream_dedupe,2026-07-01 20:44:00,FAILED,26.1,376400,Connection timeout to source database after 30s
+clickstream_dedupe_20260701_0048,clickstream_dedupe,2026-07-01 00:48:00,FAILED,21.3,146852,Schema mismatch: expected column 'order_id' not found
+inventory_sync_20260701_0648,inventory_sync,2026-07-01 06:48:00,WARNING,16.6,82516,Partition skew detected on 'region' column
+marketing_attribution_load_20260701_1138,marketing_attribution_load,2026-07-01 11:38:00,SUCCESS,18.3,189208,
+finance_reconciliation_20260701_1205,finance_reconciliation,2026-07-01 12:05:00,SUCCESS,25.1,484548,
+clickstream_dedupe_20260701_0202,clickstream_dedupe,2026-07-01 02:02:00,SUCCESS,26.8,370398,
+user_events_etl_20260701_0324,user_events_etl,2026-07-01 03:24:00,SUCCESS,38.8,455286,
+finance_reconciliation_20260701_1122,finance_reconciliation,2026-07-01 11:22:00,FAILED,37.9,86277,Duplicate primary key violation on merge
+user_events_etl_20260702_2004,user_events_etl,2026-07-02 20:04:00,WARNING,32.2,359375,Job completed but ran 2.5x longer than usual
+warehouse_stock_snapshot_20260702_0529,warehouse_stock_snapshot,2026-07-02 05:29:00,WARNING,25.0,129351,3 records skipped due to null values in required field
+product_catalog_refresh_20260702_0114,product_catalog_refresh,2026-07-02 01:14:00,SUCCESS,31.4,442897,
+customer_orders_ingest_20260702_1856,customer_orders_ingest,2026-07-02 18:56:00,SUCCESS,13.5,111615,
+marketing_attribution_load_20260702_2029,marketing_attribution_load,2026-07-02 20:29:00,SUCCESS,19.0,480486,
+inventory_sync_20260702_1716,inventory_sync,2026-07-02 17:16:00,SUCCESS,12.6,295318,
+warehouse_stock_snapshot_20260702_0432,warehouse_stock_snapshot,2026-07-02 04:32:00,FAILED,19.2,115987,Authentication failed for service principal
+shipment_tracking_sync_20260702_2010,shipment_tracking_sync,2026-07-02 20:10:00,SUCCESS,39.0,81132,
+product_catalog_refresh_20260702_1433,product_catalog_refresh,2026-07-02 14:33:00,FAILED,18.5,313417,Connection timeout to source database after 30s
+finance_reconciliation_20260702_2156,finance_reconciliation,2026-07-02 21:56:00,FAILED,31.3,61058,Connection timeout to source database after 30s
+clickstream_dedupe_20260703_0529,clickstream_dedupe,2026-07-03 05:29:00,SUCCESS,6.8,228942,
+customer_orders_ingest_20260703_0532,customer_orders_ingest,2026-07-03 05:32:00,WARNING,43.8,400487,Job completed but ran 2.5x longer than usual
+daily_sales_aggregate_20260703_1912,daily_sales_aggregate,2026-07-03 19:12:00,WARNING,38.2,267161,Job completed but ran 2.5x longer than usual
+inventory_sync_20260703_1658,inventory_sync,2026-07-03 16:58:00,SUCCESS,25.2,409224,
+customer_orders_ingest_20260703_1156,customer_orders_ingest,2026-07-03 11:56:00,FAILED,23.0,59650,Out of memory error during shuffle stage
+finance_reconciliation_20260703_0205,finance_reconciliation,2026-07-03 02:05:00,SUCCESS,12.4,298458,
+shipment_tracking_sync_20260703_1710,shipment_tracking_sync,2026-07-03 17:10:00,SUCCESS,7.5,250184,
+finance_reconciliation_20260703_1748,finance_reconciliation,2026-07-03 17:48:00,FAILED,20.2,112043,Authentication failed for service principal
+user_events_etl_20260703_2023,user_events_etl,2026-07-03 20:23:00,WARNING,19.2,353157,Job completed but ran 2.5x longer than usual
+shipment_tracking_sync_20260703_0221,shipment_tracking_sync,2026-07-03 02:21:00,FAILED,7.2,118806,Upstream table 'raw_events' was empty at run time
+customer_orders_ingest_20260704_0004,customer_orders_ingest,2026-07-04 00:04:00,FAILED,11.9,116457,Authentication failed for service principal
+customer_orders_ingest_20260704_1004,customer_orders_ingest,2026-07-04 10:04:00,SUCCESS,40.9,451696,
+clickstream_dedupe_20260704_1708,clickstream_dedupe,2026-07-04 17:08:00,SUCCESS,30.8,113321,
+warehouse_stock_snapshot_20260704_1312,warehouse_stock_snapshot,2026-07-04 13:12:00,FAILED,12.4,248974,Upstream table 'raw_events' was empty at run time
+daily_sales_aggregate_20260704_1455,daily_sales_aggregate,2026-07-04 14:55:00,SUCCESS,17.2,216535,
+customer_orders_ingest_20260704_1051,customer_orders_ingest,2026-07-04 10:51:00,WARNING,4.6,382793,Row count 15% lower than 7-day average
+daily_sales_aggregate_20260704_0427,daily_sales_aggregate,2026-07-04 04:27:00,SUCCESS,10.2,236202,
+inventory_sync_20260704_0228,inventory_sync,2026-07-04 02:28:00,SUCCESS,12.7,485057,
+clickstream_dedupe_20260704_0005,clickstream_dedupe,2026-07-04 00:05:00,SUCCESS,30.0,284423,
+user_events_etl_20260704_1257,user_events_etl,2026-07-04 12:57:00,SUCCESS,22.9,113065,
+customer_orders_ingest_20260705_0859,customer_orders_ingest,2026-07-05 08:59:00,SUCCESS,2.1,205693,
+shipment_tracking_sync_20260705_1742,shipment_tracking_sync,2026-07-05 17:42:00,SUCCESS,32.0,383995,
+shipment_tracking_sync_20260705_1847,shipment_tracking_sync,2026-07-05 18:47:00,SUCCESS,14.8,31662,
+clickstream_dedupe_20260705_1532,clickstream_dedupe,2026-07-05 15:32:00,SUCCESS,4.5,307277,
+clickstream_dedupe_20260705_0504,clickstream_dedupe,2026-07-05 05:04:00,SUCCESS,43.3,43001,
+warehouse_stock_snapshot_20260705_1815,warehouse_stock_snapshot,2026-07-05 18:15:00,SUCCESS,19.4,494667,
+warehouse_stock_snapshot_20260705_2137,warehouse_stock_snapshot,2026-07-05 21:37:00,FAILED,28.6,220794,Connection timeout to source database after 30s
+warehouse_stock_snapshot_20260705_2145,warehouse_stock_snapshot,2026-07-05 21:45:00,FAILED,42.2,108090,Out of memory error during shuffle stage
+marketing_attribution_load_20260705_2019,marketing_attribution_load,2026-07-05 20:19:00,SUCCESS,19.0,353159,
+shipment_tracking_sync_20260705_1806,shipment_tracking_sync,2026-07-05 18:06:00,SUCCESS,2.4,326666,
+daily_sales_aggregate_20260706_1156,daily_sales_aggregate,2026-07-06 11:56:00,FAILED,23.8,70445,Schema mismatch: expected column 'order_id' not found
+daily_sales_aggregate_20260706_1745,daily_sales_aggregate,2026-07-06 17:45:00,SUCCESS,14.3,230734,
+finance_reconciliation_20260706_1719,finance_reconciliation,2026-07-06 17:19:00,FAILED,24.7,351152,Duplicate primary key violation on merge
+daily_sales_aggregate_20260706_2335,daily_sales_aggregate,2026-07-06 23:35:00,SUCCESS,7.0,57117,
+inventory_sync_20260706_1013,inventory_sync,2026-07-06 10:13:00,SUCCESS,28.0,377235,
+finance_reconciliation_20260706_0105,finance_reconciliation,2026-07-06 01:05:00,FAILED,12.8,477136,Upstream table 'raw_events' was empty at run time
+product_catalog_refresh_20260706_0440,product_catalog_refresh,2026-07-06 04:40:00,SUCCESS,2.2,405288,
+finance_reconciliation_20260706_1700,finance_reconciliation,2026-07-06 17:00:00,SUCCESS,25.7,225231,
+daily_sales_aggregate_20260706_1137,daily_sales_aggregate,2026-07-06 11:37:00,SUCCESS,25.5,438568,
+clickstream_dedupe_20260706_1157,clickstream_dedupe,2026-07-06 11:57:00,SUCCESS,7.5,162616,
+customer_orders_ingest_20260707_0322,customer_orders_ingest,2026-07-07 03:22:00,SUCCESS,31.3,350665,
+clickstream_dedupe_20260707_0755,clickstream_dedupe,2026-07-07 07:55:00,FAILED,34.2,486366,Authentication failed for service principal
+inventory_sync_20260707_1050,inventory_sync,2026-07-07 10:50:00,SUCCESS,3.1,387171,
+product_catalog_refresh_20260707_2206,product_catalog_refresh,2026-07-07 22:06:00,WARNING,13.5,413811,3 records skipped due to null values in required field
+product_catalog_refresh_20260707_1422,product_catalog_refresh,2026-07-07 14:22:00,SUCCESS,11.6,429126,
+finance_reconciliation_20260707_1221,finance_reconciliation,2026-07-07 12:21:00,SUCCESS,3.0,102255,
+finance_reconciliation_20260707_1243,finance_reconciliation,2026-07-07 12:43:00,SUCCESS,17.1,268075,
+clickstream_dedupe_20260707_0537,clickstream_dedupe,2026-07-07 05:37:00,SUCCESS,7.0,137951,
+finance_reconciliation_20260707_2350,finance_reconciliation,2026-07-07 23:50:00,SUCCESS,27.7,182239,
+marketing_attribution_load_20260707_1257,marketing_attribution_load,2026-07-07 12:57:00,FAILED,44.3,61631,Authentication failed for service principal
+warehouse_stock_snapshot_20260708_0033,warehouse_stock_snapshot,2026-07-08 00:33:00,SUCCESS,3.9,229619,
+clickstream_dedupe_20260708_2158,clickstream_dedupe,2026-07-08 21:58:00,WARNING,17.7,37686,3 records skipped due to null values in required field
+marketing_attribution_load_20260708_2357,marketing_attribution_load,2026-07-08 23:57:00,FAILED,30.5,66339,Out of memory error during shuffle stage
+finance_reconciliation_20260708_1244,finance_reconciliation,2026-07-08 12:44:00,FAILED,30.7,172013,Out of memory error during shuffle stage
+finance_reconciliation_20260708_1243,finance_reconciliation,2026-07-08 12:43:00,FAILED,10.2,349614,Schema mismatch: expected column 'order_id' not found
+inventory_sync_20260708_0019,inventory_sync,2026-07-08 00:19:00,FAILED,14.9,288276,Authentication failed for service principal
+finance_reconciliation_20260708_2020,finance_reconciliation,2026-07-08 20:20:00,SUCCESS,35.8,319065,
+shipment_tracking_sync_20260708_1550,shipment_tracking_sync,2026-07-08 15:50:00,FAILED,31.1,269002,Upstream table 'raw_events' was empty at run time
+inventory_sync_20260708_2039,inventory_sync,2026-07-08 20:39:00,WARNING,14.2,349050,Row count 15% lower than 7-day average
+marketing_attribution_load_20260708_0609,marketing_attribution_load,2026-07-08 06:09:00,SUCCESS,30.9,118776,
+customer_orders_ingest_20260709_0229,customer_orders_ingest,2026-07-09 02:29:00,SUCCESS,44.3,321483,
+product_catalog_refresh_20260709_1525,product_catalog_refresh,2026-07-09 15:25:00,WARNING,32.9,202315,3 records skipped due to null values in required field
+user_events_etl_20260709_0349,user_events_etl,2026-07-09 03:49:00,SUCCESS,40.4,452118,
+product_catalog_refresh_20260709_1629,product_catalog_refresh,2026-07-09 16:29:00,SUCCESS,36.6,365858,
+customer_orders_ingest_20260709_1408,customer_orders_ingest,2026-07-09 14:08:00,FAILED,41.5,64626,Schema mismatch: expected column 'order_id' not found
+shipment_tracking_sync_20260709_1439,shipment_tracking_sync,2026-07-09 14:39:00,WARNING,42.9,468363,Job completed but ran 2.5x longer than usual
+clickstream_dedupe_20260709_2355,clickstream_dedupe,2026-07-09 23:55:00,FAILED,21.2,84444,Authentication failed for service principal
+shipment_tracking_sync_20260709_2017,shipment_tracking_sync,2026-07-09 20:17:00,FAILED,34.3,441330,Out of memory error during shuffle stage
+clickstream_dedupe_20260709_0245,clickstream_dedupe,2026-07-09 02:45:00,FAILED,12.3,231619,Duplicate primary key violation on merge
+finance_reconciliation_20260709_1705,finance_reconciliation,2026-07-09 17:05:00,SUCCESS,16.4,469203,
+inventory_sync_20260710_2213,inventory_sync,2026-07-10 22:13:00,SUCCESS,18.5,81113,
+daily_sales_aggregate_20260710_1303,daily_sales_aggregate,2026-07-10 13:03:00,FAILED,16.2,245278,Upstream table 'raw_events' was empty at run time
+user_events_etl_20260710_2201,user_events_etl,2026-07-10 22:01:00,FAILED,40.9,307225,Upstream table 'raw_events' was empty at run time
+warehouse_stock_snapshot_20260710_0948,warehouse_stock_snapshot,2026-07-10 09:48:00,FAILED,2.3,185422,Upstream table 'raw_events' was empty at run time
+product_catalog_refresh_20260710_1957,product_catalog_refresh,2026-07-10 19:57:00,FAILED,34.1,287330,Authentication failed for service principal
+user_events_etl_20260710_0024,user_events_etl,2026-07-10 00:24:00,FAILED,13.7,255616,Schema mismatch: expected column 'order_id' not found
+marketing_attribution_load_20260710_1458,marketing_attribution_load,2026-07-10 14:58:00,WARNING,33.1,441667,Partition skew detected on 'region' column
+inventory_sync_20260710_1836,inventory_sync,2026-07-10 18:36:00,FAILED,3.2,207580,Authentication failed for service principal
+customer_orders_ingest_20260710_0503,customer_orders_ingest,2026-07-10 05:03:00,SUCCESS,7.8,243062,
+finance_reconciliation_20260710_1048,finance_reconciliation,2026-07-10 10:48:00,FAILED,11.1,172361,Out of memory error during shuffle stage
+product_catalog_refresh_20260711_1501,product_catalog_refresh,2026-07-11 15:01:00,SUCCESS,12.8,43942,
+clickstream_dedupe_20260711_2002,clickstream_dedupe,2026-07-11 20:02:00,SUCCESS,11.6,36975,
+customer_orders_ingest_20260711_0415,customer_orders_ingest,2026-07-11 04:15:00,SUCCESS,38.1,326758,
+inventory_sync_20260711_0629,inventory_sync,2026-07-11 06:29:00,FAILED,6.9,497897,Duplicate primary key violation on merge
+finance_reconciliation_20260711_2207,finance_reconciliation,2026-07-11 22:07:00,SUCCESS,28.1,393128,
+inventory_sync_20260711_0936,inventory_sync,2026-07-11 09:36:00,SUCCESS,26.9,488004,
+product_catalog_refresh_20260711_2253,product_catalog_refresh,2026-07-11 22:53:00,FAILED,10.5,311429,Duplicate primary key violation on merge
+user_events_etl_20260711_0350,user_events_etl,2026-07-11 03:50:00,SUCCESS,38.6,315788,
+warehouse_stock_snapshot_20260711_1104,warehouse_stock_snapshot,2026-07-11 11:04:00,SUCCESS,24.9,347827,
+clickstream_dedupe_20260711_1506,clickstream_dedupe,2026-07-11 15:06:00,WARNING,2.5,221231,Job completed but ran 2.5x longer than usual
+product_catalog_refresh_20260712_0546,product_catalog_refresh,2026-07-12 05:46:00,SUCCESS,32.4,229320,
+clickstream_dedupe_20260712_1749,clickstream_dedupe,2026-07-12 17:49:00,WARNING,28.5,483144,Job completed but ran 2.5x longer than usual
+shipment_tracking_sync_20260712_0820,shipment_tracking_sync,2026-07-12 08:20:00,FAILED,37.5,311627,Upstream table 'raw_events' was empty at run time
+user_events_etl_20260712_1436,user_events_etl,2026-07-12 14:36:00,SUCCESS,39.9,128854,
+warehouse_stock_snapshot_20260712_1011,warehouse_stock_snapshot,2026-07-12 10:11:00,WARNING,16.5,260158,Partition skew detected on 'region' column
+shipment_tracking_sync_20260712_0856,shipment_tracking_sync,2026-07-12 08:56:00,SUCCESS,36.3,179435,
+warehouse_stock_snapshot_20260712_0605,warehouse_stock_snapshot,2026-07-12 06:05:00,WARNING,25.9,271861,Job completed but ran 2.5x longer than usual
+user_events_etl_20260712_0744,user_events_etl,2026-07-12 07:44:00,WARNING,23.0,398496,Partition skew detected on 'region' column
+shipment_tracking_sync_20260712_0218,shipment_tracking_sync,2026-07-12 02:18:00,WARNING,21.3,10040,Partition skew detected on 'region' column
+user_events_etl_20260712_1823,user_events_etl,2026-07-12 18:23:00,FAILED,12.5,349106,Duplicate primary key violation on merge
+shipment_tracking_sync_20260713_1721,shipment_tracking_sync,2026-07-13 17:21:00,FAILED,16.8,392084,Authentication failed for service principal
+marketing_attribution_load_20260713_0707,marketing_attribution_load,2026-07-13 07:07:00,WARNING,13.6,132807,Partition skew detected on 'region' column
+user_events_etl_20260713_2211,user_events_etl,2026-07-13 22:11:00,SUCCESS,33.9,499533,
+user_events_etl_20260713_1638,user_events_etl,2026-07-13 16:38:00,SUCCESS,13.9,310113,
+finance_reconciliation_20260713_0519,finance_reconciliation,2026-07-13 05:19:00,SUCCESS,14.7,190205,
+customer_orders_ingest_20260713_1718,customer_orders_ingest,2026-07-13 17:18:00,WARNING,13.8,29587,3 records skipped due to null values in required field
+inventory_sync_20260713_1818,inventory_sync,2026-07-13 18:18:00,WARNING,6.4,7430,Partition skew detected on 'region' column
+shipment_tracking_sync_20260713_0855,shipment_tracking_sync,2026-07-13 08:55:00,FAILED,16.7,27936,Upstream table 'raw_events' was empty at run time
+shipment_tracking_sync_20260713_1840,shipment_tracking_sync,2026-07-13 18:40:00,SUCCESS,19.2,39840,
+customer_orders_ingest_20260713_0905,customer_orders_ingest,2026-07-13 09:05:00,SUCCESS,36.9,498615,
+user_events_etl_20260714_1914,user_events_etl,2026-07-14 19:14:00,SUCCESS,28.1,415575,
+clickstream_dedupe_20260714_1827,clickstream_dedupe,2026-07-14 18:27:00,FAILED,41.1,156898,Upstream table 'raw_events' was empty at run time
+finance_reconciliation_20260714_0348,finance_reconciliation,2026-07-14 03:48:00,FAILED,4.6,389019,Authentication failed for service principal
+user_events_etl_20260714_0515,user_events_etl,2026-07-14 05:15:00,WARNING,13.4,43565,3 records skipped due to null values in required field
+inventory_sync_20260714_1444,inventory_sync,2026-07-14 14:44:00,FAILED,8.7,215180,Connection timeout to source database after 30s
+warehouse_stock_snapshot_20260714_2218,warehouse_stock_snapshot,2026-07-14 22:18:00,FAILED,3.4,152049,Out of memory error during shuffle stage
+shipment_tracking_sync_20260714_2037,shipment_tracking_sync,2026-07-14 20:37:00,SUCCESS,41.7,414048,
+user_events_etl_20260714_0458,user_events_etl,2026-07-14 04:58:00,FAILED,25.4,340547,Connection timeout to source database after 30s
+finance_reconciliation_20260714_0938,finance_reconciliation,2026-07-14 09:38:00,SUCCESS,4.6,416565,
+warehouse_stock_snapshot_20260714_0944,warehouse_stock_snapshot,2026-07-14 09:44:00,SUCCESS,7.3,362065,
+product_catalog_refresh_20260715_0156,product_catalog_refresh,2026-07-15 01:56:00,SUCCESS,20.8,314543,
+product_catalog_refresh_20260715_0214,product_catalog_refresh,2026-07-15 02:14:00,WARNING,28.0,14560,Job completed but ran 2.5x longer than usual
+warehouse_stock_snapshot_20260715_0836,warehouse_stock_snapshot,2026-07-15 08:36:00,FAILED,45.0,353469,Connection timeout to source database after 30s
+customer_orders_ingest_20260715_0811,customer_orders_ingest,2026-07-15 08:11:00,SUCCESS,24.3,232855,
+warehouse_stock_snapshot_20260715_1522,warehouse_stock_snapshot,2026-07-15 15:22:00,FAILED,37.0,48837,Duplicate primary key violation on merge
+product_catalog_refresh_20260715_0521,product_catalog_refresh,2026-07-15 05:21:00,SUCCESS,30.8,450699,
+product_catalog_refresh_20260715_1252,product_catalog_refresh,2026-07-15 12:52:00,WARNING,14.4,496553,Partition skew detected on 'region' column
+clickstream_dedupe_20260715_1007,clickstream_dedupe,2026-07-15 10:07:00,SUCCESS,5.8,133329,
+product_catalog_refresh_20260715_1426,product_catalog_refresh,2026-07-15 14:26:00,FAILED,30.3,285475,Connection timeout to source database after 30s
+customer_orders_ingest_20260715_2028,customer_orders_ingest,2026-07-15 20:28:00,SUCCESS,28.8,262353,
+customer_orders_ingest_20260716_0928,customer_orders_ingest,2026-07-16 09:28:00,SUCCESS,25.6,487367,
+shipment_tracking_sync_20260716_0745,shipment_tracking_sync,2026-07-16 07:45:00,SUCCESS,43.8,320224,
+inventory_sync_20260716_0753,inventory_sync,2026-07-16 07:53:00,SUCCESS,25.7,49868,
+daily_sales_aggregate_20260716_1559,daily_sales_aggregate,2026-07-16 15:59:00,FAILED,29.9,81725,Connection timeout to source database after 30s
+finance_reconciliation_20260716_1530,finance_reconciliation,2026-07-16 15:30:00,FAILED,13.8,438635,Duplicate primary key violation on merge
+user_events_etl_20260716_1932,user_events_etl,2026-07-16 19:32:00,FAILED,8.2,100934,Authentication failed for service principal
+inventory_sync_20260716_1321,inventory_sync,2026-07-16 13:21:00,SUCCESS,35.2,448958,
+clickstream_dedupe_20260716_1837,clickstream_dedupe,2026-07-16 18:37:00,SUCCESS,14.2,157529,
+shipment_tracking_sync_20260716_1035,shipment_tracking_sync,2026-07-16 10:35:00,SUCCESS,25.2,181944,
+clickstream_dedupe_20260716_0644,clickstream_dedupe,2026-07-16 06:44:00,FAILED,42.1,456921,Upstream table 'raw_events' was empty at run time
+user_events_etl_20260717_1302,user_events_etl,2026-07-17 13:02:00,FAILED,12.0,407608,Upstream table 'raw_events' was empty at run time
+marketing_attribution_load_20260717_1224,marketing_attribution_load,2026-07-17 12:24:00,WARNING,32.3,426411,Partition skew detected on 'region' column
+inventory_sync_20260717_1055,inventory_sync,2026-07-17 10:55:00,FAILED,7.4,310424,Connection timeout to source database after 30s
+daily_sales_aggregate_20260717_0046,daily_sales_aggregate,2026-07-17 00:46:00,FAILED,24.6,240561,Connection timeout to source database after 30s
+inventory_sync_20260717_1550,inventory_sync,2026-07-17 15:50:00,FAILED,43.7,40231,Duplicate primary key violation on merge
+finance_reconciliation_20260717_1054,finance_reconciliation,2026-07-17 10:54:00,SUCCESS,29.9,447570,
+clickstream_dedupe_20260717_1555,clickstream_dedupe,2026-07-17 15:55:00,FAILED,29.0,466273,Out of memory error during shuffle stage
+clickstream_dedupe_20260717_0914,clickstream_dedupe,2026-07-17 09:14:00,SUCCESS,12.1,359822,
+daily_sales_aggregate_20260717_0328,daily_sales_aggregate,2026-07-17 03:28:00,FAILED,34.7,370041,Connection timeout to source database after 30s
+inventory_sync_20260717_1050,inventory_sync,2026-07-17 10:50:00,WARNING,40.8,25112,Job completed but ran 2.5x longer than usual
+customer_orders_ingest_20260718_0733,customer_orders_ingest,2026-07-18 07:33:00,SUCCESS,18.1,77320,
+product_catalog_refresh_20260718_0505,product_catalog_refresh,2026-07-18 05:05:00,FAILED,36.1,90120,Duplicate primary key violation on merge
+warehouse_stock_snapshot_20260718_1809,warehouse_stock_snapshot,2026-07-18 18:09:00,FAILED,31.4,261920,Authentication failed for service principal
+user_events_etl_20260718_2100,user_events_etl,2026-07-18 21:00:00,FAILED,12.9,134864,Duplicate primary key violation on merge
+shipment_tracking_sync_20260718_1137,shipment_tracking_sync,2026-07-18 11:37:00,SUCCESS,5.2,496575,
+finance_reconciliation_20260718_0912,finance_reconciliation,2026-07-18 09:12:00,WARNING,31.7,240513,Partition skew detected on 'region' column
+product_catalog_refresh_20260718_1136,product_catalog_refresh,2026-07-18 11:36:00,FAILED,12.2,300852,Connection timeout to source database after 30s
+finance_reconciliation_20260718_2125,finance_reconciliation,2026-07-18 21:25:00,WARNING,2.9,436178,Job completed but ran 2.5x longer than usual
+finance_reconciliation_20260718_1553,finance_reconciliation,2026-07-18 15:53:00,SUCCESS,41.2,391684,
+finance_reconciliation_20260718_1916,finance_reconciliation,2026-07-18 19:16:00,SUCCESS,11.4,100683,
+inventory_sync_20260719_0119,inventory_sync,2026-07-19 01:19:00,WARNING,40.8,339868,Row count 15% lower than 7-day average
+shipment_tracking_sync_20260719_0920,shipment_tracking_sync,2026-07-19 09:20:00,SUCCESS,33.5,48255,
+product_catalog_refresh_20260719_1133,product_catalog_refresh,2026-07-19 11:33:00,SUCCESS,7.7,283805,
+clickstream_dedupe_20260719_1551,clickstream_dedupe,2026-07-19 15:51:00,SUCCESS,13.0,433374,
+finance_reconciliation_20260719_0209,finance_reconciliation,2026-07-19 02:09:00,WARNING,36.6,246540,Job completed but ran 2.5x longer than usual
+user_events_etl_20260719_1723,user_events_etl,2026-07-19 17:23:00,WARNING,43.6,422835,Partition skew detected on 'region' column
+daily_sales_aggregate_20260719_1423,daily_sales_aggregate,2026-07-19 14:23:00,FAILED,13.4,65796,Connection timeout to source database after 30s
+finance_reconciliation_20260719_1106,finance_reconciliation,2026-07-19 11:06:00,FAILED,37.4,493983,Upstream table 'raw_events' was empty at run time
+user_events_etl_20260719_1720,user_events_etl,2026-07-19 17:20:00,FAILED,28.6,495492,Connection timeout to source database after 30s
+warehouse_stock_snapshot_20260719_2219,warehouse_stock_snapshot,2026-07-19 22:19:00,SUCCESS,29.3,244409,
+product_catalog_refresh_20260720_0931,product_catalog_refresh,2026-07-20 09:31:00,SUCCESS,3.9,20509,
+daily_sales_aggregate_20260720_1229,daily_sales_aggregate,2026-07-20 12:29:00,SUCCESS,40.2,72127,
+marketing_attribution_load_20260720_0456,marketing_attribution_load,2026-07-20 04:56:00,WARNING,27.3,381947,Partition skew detected on 'region' column
+product_catalog_refresh_20260720_1317,product_catalog_refresh,2026-07-20 13:17:00,WARNING,37.8,323779,Row count 15% lower than 7-day average
+customer_orders_ingest_20260720_0754,customer_orders_ingest,2026-07-20 07:54:00,WARNING,11.3,234148,Job completed but ran 2.5x longer than usual
+marketing_attribution_load_20260720_1103,marketing_attribution_load,2026-07-20 11:03:00,SUCCESS,25.4,339074,
+product_catalog_refresh_20260720_1405,product_catalog_refresh,2026-07-20 14:05:00,SUCCESS,43.6,498554,
+user_events_etl_20260720_0708,user_events_etl,2026-07-20 07:08:00,WARNING,4.2,175854,Row count 15% lower than 7-day average
+warehouse_stock_snapshot_20260720_0637,warehouse_stock_snapshot,2026-07-20 06:37:00,SUCCESS,37.7,291564,
+user_events_etl_20260720_1900,user_events_etl,2026-07-20 19:00:00,SUCCESS,35.3,414476,
+finance_reconciliation_20260721_0507,finance_reconciliation,2026-07-21 05:07:00,SUCCESS,25.2,419651,
+customer_orders_ingest_20260721_0737,customer_orders_ingest,2026-07-21 07:37:00,SUCCESS,17.4,414365,
+marketing_attribution_load_20260721_2326,marketing_attribution_load,2026-07-21 23:26:00,SUCCESS,13.4,67457,
+clickstream_dedupe_20260721_1132,clickstream_dedupe,2026-07-21 11:32:00,SUCCESS,22.5,408904,
+warehouse_stock_snapshot_20260721_1902,warehouse_stock_snapshot,2026-07-21 19:02:00,SUCCESS,23.7,496670,
+clickstream_dedupe_20260721_0130,clickstream_dedupe,2026-07-21 01:30:00,SUCCESS,29.7,17331,
+product_catalog_refresh_20260721_1404,product_catalog_refresh,2026-07-21 14:04:00,FAILED,6.6,374503,Duplicate primary key violation on merge
+daily_sales_aggregate_20260721_1940,daily_sales_aggregate,2026-07-21 19:40:00,SUCCESS,4.8,145187,
+warehouse_stock_snapshot_20260721_1618,warehouse_stock_snapshot,2026-07-21 16:18:00,FAILED,16.0,314205,Duplicate primary key violation on merge
+shipment_tracking_sync_20260721_2207,shipment_tracking_sync,2026-07-21 22:07:00,FAILED,20.5,416810,Authentication failed for service principal
+clickstream_dedupe_20260722_0726,clickstream_dedupe,2026-07-22 07:26:00,WARNING,20.5,466615,3 records skipped due to null values in required field
+marketing_attribution_load_20260722_1027,marketing_attribution_load,2026-07-22 10:27:00,FAILED,19.9,50852,Upstream table 'raw_events' was empty at run time
+marketing_attribution_load_20260722_2159,marketing_attribution_load,2026-07-22 21:59:00,WARNING,18.1,81026,Job completed but ran 2.5x longer than usual
+shipment_tracking_sync_20260722_1306,shipment_tracking_sync,2026-07-22 13:06:00,SUCCESS,37.8,49879,
+marketing_attribution_load_20260722_1721,marketing_attribution_load,2026-07-22 17:21:00,SUCCESS,27.2,295433,
+daily_sales_aggregate_20260722_1355,daily_sales_aggregate,2026-07-22 13:55:00,FAILED,39.6,494423,Out of memory error during shuffle stage
+customer_orders_ingest_20260722_1613,customer_orders_ingest,2026-07-22 16:13:00,SUCCESS,17.1,303995,
+inventory_sync_20260722_1154,inventory_sync,2026-07-22 11:54:00,WARNING,11.6,57737,Partition skew detected on 'region' column
+clickstream_dedupe_20260722_0751,clickstream_dedupe,2026-07-22 07:51:00,SUCCESS,34.8,301993,
+product_catalog_refresh_20260722_1701,product_catalog_refresh,2026-07-22 17:01:00,FAILED,28.4,337959,Authentication failed for service principal
+warehouse_stock_snapshot_20260723_2248,warehouse_stock_snapshot,2026-07-23 22:48:00,WARNING,3.2,144272,Job completed but ran 2.5x longer than usual
+finance_reconciliation_20260723_0436,finance_reconciliation,2026-07-23 04:36:00,SUCCESS,2.3,457058,
+product_catalog_refresh_20260723_0247,product_catalog_refresh,2026-07-23 02:47:00,SUCCESS,33.9,17073,
+clickstream_dedupe_20260723_0523,clickstream_dedupe,2026-07-23 05:23:00,SUCCESS,20.1,179727,
+finance_reconciliation_20260723_1905,finance_reconciliation,2026-07-23 19:05:00,WARNING,35.4,298582,Job completed but ran 2.5x longer than usual
+customer_orders_ingest_20260723_2105,customer_orders_ingest,2026-07-23 21:05:00,SUCCESS,34.4,27089,
+finance_reconciliation_20260723_1426,finance_reconciliation,2026-07-23 14:26:00,FAILED,20.2,319282,Duplicate primary key violation on merge
+finance_reconciliation_20260723_0943,finance_reconciliation,2026-07-23 09:43:00,SUCCESS,16.8,59138,
+warehouse_stock_snapshot_20260723_0725,warehouse_stock_snapshot,2026-07-23 07:25:00,FAILED,30.7,24811,Authentication failed for service principal
+warehouse_stock_snapshot_20260723_0649,warehouse_stock_snapshot,2026-07-23 06:49:00,SUCCESS,10.8,496622,
+inventory_sync_20260724_1547,inventory_sync,2026-07-24 15:47:00,SUCCESS,16.1,5052,
+product_catalog_refresh_20260724_0732,product_catalog_refresh,2026-07-24 07:32:00,SUCCESS,18.3,369926,
+clickstream_dedupe_20260724_2302,clickstream_dedupe,2026-07-24 23:02:00,WARNING,5.1,452812,Job completed but ran 2.5x longer than usual
+product_catalog_refresh_20260724_1036,product_catalog_refresh,2026-07-24 10:36:00,SUCCESS,41.6,452993,
+product_catalog_refresh_20260724_0907,product_catalog_refresh,2026-07-24 09:07:00,FAILED,32.5,219991,Upstream table 'raw_events' was empty at run time
+product_catalog_refresh_20260724_1929,product_catalog_refresh,2026-07-24 19:29:00,SUCCESS,9.4,497822,
+marketing_attribution_load_20260724_1337,marketing_attribution_load,2026-07-24 13:37:00,SUCCESS,38.3,128567,
+product_catalog_refresh_20260724_2321,product_catalog_refresh,2026-07-24 23:21:00,FAILED,19.0,163673,Connection timeout to source database after 30s
+user_events_etl_20260724_0333,user_events_etl,2026-07-24 03:33:00,SUCCESS,5.3,332992,
+clickstream_dedupe_20260724_2052,clickstream_dedupe,2026-07-24 20:52:00,SUCCESS,17.1,430364,
+inventory_sync_20260725_0538,inventory_sync,2026-07-25 05:38:00,SUCCESS,8.3,104427,
+inventory_sync_20260725_2031,inventory_sync,2026-07-25 20:31:00,WARNING,9.6,406194,Row count 15% lower than 7-day average
+shipment_tracking_sync_20260725_1841,shipment_tracking_sync,2026-07-25 18:41:00,FAILED,21.3,485522,Authentication failed for service principal
+warehouse_stock_snapshot_20260725_1528,warehouse_stock_snapshot,2026-07-25 15:28:00,SUCCESS,8.5,36801,
+finance_reconciliation_20260725_0929,finance_reconciliation,2026-07-25 09:29:00,SUCCESS,17.1,39897,
+shipment_tracking_sync_20260725_0241,shipment_tracking_sync,2026-07-25 02:41:00,SUCCESS,17.9,151511,
+daily_sales_aggregate_20260725_1835,daily_sales_aggregate,2026-07-25 18:35:00,FAILED,23.8,243594,Authentication failed for service principal
+customer_orders_ingest_20260725_1930,customer_orders_ingest,2026-07-25 19:30:00,FAILED,30.0,169572,Authentication failed for service principal
+clickstream_dedupe_20260725_1045,clickstream_dedupe,2026-07-25 10:45:00,SUCCESS,21.4,426180,
+daily_sales_aggregate_20260725_2228,daily_sales_aggregate,2026-07-25 22:28:00,FAILED,9.4,130889,Duplicate primary key violation on merge
+shipment_tracking_sync_20260726_1158,shipment_tracking_sync,2026-07-26 11:58:00,FAILED,28.2,191787,Authentication failed for service principal
+finance_reconciliation_20260726_1903,finance_reconciliation,2026-07-26 19:03:00,FAILED,35.3,356937,Upstream table 'raw_events' was empty at run time
+marketing_attribution_load_20260726_1218,marketing_attribution_load,2026-07-26 12:18:00,SUCCESS,6.1,356666,
+finance_reconciliation_20260726_2109,finance_reconciliation,2026-07-26 21:09:00,WARNING,16.3,306523,3 records skipped due to null values in required field
+marketing_attribution_load_20260726_0219,marketing_attribution_load,2026-07-26 02:19:00,SUCCESS,7.5,372633,
+clickstream_dedupe_20260726_0442,clickstream_dedupe,2026-07-26 04:42:00,FAILED,36.0,427343,Duplicate primary key violation on merge
+clickstream_dedupe_20260726_1119,clickstream_dedupe,2026-07-26 11:19:00,SUCCESS,23.9,10558,
+inventory_sync_20260726_0614,inventory_sync,2026-07-26 06:14:00,SUCCESS,42.7,255946,
+inventory_sync_20260726_0332,inventory_sync,2026-07-26 03:32:00,SUCCESS,14.7,414201,
+clickstream_dedupe_20260726_1908,clickstream_dedupe,2026-07-26 19:08:00,WARNING,30.5,460482,Row count 15% lower than 7-day average
+warehouse_stock_snapshot_20260727_2249,warehouse_stock_snapshot,2026-07-27 22:49:00,FAILED,9.0,436864,Schema mismatch: expected column 'order_id' not found
+warehouse_stock_snapshot_20260727_2146,warehouse_stock_snapshot,2026-07-27 21:46:00,SUCCESS,3.9,191997,
+user_events_etl_20260727_1414,user_events_etl,2026-07-27 14:14:00,FAILED,14.3,393448,Authentication failed for service principal
+clickstream_dedupe_20260727_1557,clickstream_dedupe,2026-07-27 15:57:00,SUCCESS,43.5,412235,
+user_events_etl_20260727_1232,user_events_etl,2026-07-27 12:32:00,SUCCESS,21.9,148729,
+clickstream_dedupe_20260727_1908,clickstream_dedupe,2026-07-27 19:08:00,FAILED,37.1,421090,Schema mismatch: expected column 'order_id' not found
+finance_reconciliation_20260727_0345,finance_reconciliation,2026-07-27 03:45:00,SUCCESS,39.6,291739,
+clickstream_dedupe_20260727_0828,clickstream_dedupe,2026-07-27 08:28:00,SUCCESS,5.6,85049,
+clickstream_dedupe_20260727_0752,clickstream_dedupe,2026-07-27 07:52:00,SUCCESS,5.9,478366,
+shipment_tracking_sync_20260727_1623,shipment_tracking_sync,2026-07-27 16:23:00,SUCCESS,19.8,208856,
+user_events_etl_20260728_1059,user_events_etl,2026-07-28 10:59:00,FAILED,18.1,15778,Connection timeout to source database after 30s
+daily_sales_aggregate_20260728_0118,daily_sales_aggregate,2026-07-28 01:18:00,WARNING,36.0,73141,Job completed but ran 2.5x longer than usual
+shipment_tracking_sync_20260728_1439,shipment_tracking_sync,2026-07-28 14:39:00,WARNING,34.6,246948,3 records skipped due to null values in required field
+customer_orders_ingest_20260728_0435,customer_orders_ingest,2026-07-28 04:35:00,SUCCESS,13.0,438761,
+warehouse_stock_snapshot_20260728_0719,warehouse_stock_snapshot,2026-07-28 07:19:00,FAILED,6.8,152048,Upstream table 'raw_events' was empty at run time
+daily_sales_aggregate_20260728_1929,daily_sales_aggregate,2026-07-28 19:29:00,SUCCESS,20.1,417231,
+daily_sales_aggregate_20260728_2032,daily_sales_aggregate,2026-07-28 20:32:00,SUCCESS,27.7,9616,
+warehouse_stock_snapshot_20260728_1922,warehouse_stock_snapshot,2026-07-28 19:22:00,SUCCESS,14.5,1820,
+user_events_etl_20260728_0233,user_events_etl,2026-07-28 02:33:00,FAILED,10.1,351337,Upstream table 'raw_events' was empty at run time
+marketing_attribution_load_20260728_0140,marketing_attribution_load,2026-07-28 01:40:00,SUCCESS,18.8,247486,
+product_catalog_refresh_20260729_0222,product_catalog_refresh,2026-07-29 02:22:00,SUCCESS,34.1,188220,
+user_events_etl_20260729_1008,user_events_etl,2026-07-29 10:08:00,WARNING,35.2,386449,Row count 15% lower than 7-day average
+customer_orders_ingest_20260729_2129,customer_orders_ingest,2026-07-29 21:29:00,SUCCESS,37.0,92797,
+shipment_tracking_sync_20260729_2249,shipment_tracking_sync,2026-07-29 22:49:00,WARNING,36.9,34082,3 records skipped due to null values in required field
+shipment_tracking_sync_20260729_0656,shipment_tracking_sync,2026-07-29 06:56:00,SUCCESS,10.7,415769,
+customer_orders_ingest_20260729_1730,customer_orders_ingest,2026-07-29 17:30:00,SUCCESS,24.2,428507,
+finance_reconciliation_20260729_0155,finance_reconciliation,2026-07-29 01:55:00,SUCCESS,14.3,453008,
+marketing_attribution_load_20260729_1247,marketing_attribution_load,2026-07-29 12:47:00,SUCCESS,36.4,230088,
+shipment_tracking_sync_20260729_2231,shipment_tracking_sync,2026-07-29 22:31:00,FAILED,43.9,261153,Out of memory error during shuffle stage
+marketing_attribution_load_20260729_1305,marketing_attribution_load,2026-07-29 13:05:00,FAILED,36.4,382200,Out of memory error during shuffle stage
+product_catalog_refresh_20260730_0305,product_catalog_refresh,2026-07-30 03:05:00,FAILED,25.5,169407,Schema mismatch: expected column 'order_id' not found
+marketing_attribution_load_20260730_2227,marketing_attribution_load,2026-07-30 22:27:00,WARNING,15.2,316947,Job completed but ran 2.5x longer than usual
+inventory_sync_20260730_2355,inventory_sync,2026-07-30 23:55:00,WARNING,17.1,23206,Partition skew detected on 'region' column
+marketing_attribution_load_20260730_0104,marketing_attribution_load,2026-07-30 01:04:00,FAILED,13.8,415962,Upstream table 'raw_events' was empty at run time
+product_catalog_refresh_20260730_1943,product_catalog_refresh,2026-07-30 19:43:00,SUCCESS,43.0,75857,
+shipment_tracking_sync_20260730_2023,shipment_tracking_sync,2026-07-30 20:23:00,SUCCESS,4.9,409166,
+marketing_attribution_load_20260730_2128,marketing_attribution_load,2026-07-30 21:28:00,FAILED,3.4,81445,Authentication failed for service principal
+marketing_attribution_load_20260730_0433,marketing_attribution_load,2026-07-30 04:33:00,SUCCESS,34.8,301900,
+marketing_attribution_load_20260730_0301,marketing_attribution_load,2026-07-30 03:01:00,FAILED,29.9,131868,Out of memory error during shuffle stage
+inventory_sync_20260730_0316,inventory_sync,2026-07-30 03:16:00,FAILED,18.6,295478,Authentication failed for service principal
